@@ -1,0 +1,12 @@
+danielpinto8zz6.c-cpp-compile-run
+dracula-theme.theme-dracula
+fill-labs.dependi
+github.vscode-github-actions
+ms-vscode.cmake-tools
+ms-vscode.cpp-devtools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+pkief.material-icon-theme
+tomoki1207.pdf
+usernamehw.errorlens

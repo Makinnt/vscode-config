@@ -1,0 +1,25 @@
+{
+    "editor.fontFamily": "'Fira code', monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "material-icon-theme",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "c": false
+    },
+    "settingsSync.ignoredExtensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs",
+        "rust-lang.rust-analyzer",
+        "dustypomerleau.rust-syntax",
+        "1yib.rust-bundle",
+        "james-yu.latex-workshop",
+        "icrawl.discord-vscode"
+    ]
+}

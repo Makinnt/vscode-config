@@ -1,0 +1,9 @@
+ms-python.python
+ms-python.vscode-pylance
+ms-python.debugpy
+ms-python.vscode-python-envs
+rust-lang.rust-analyzer
+dustypomerleau.rust-syntax
+1yib.rust-bundle
+james-yu.latex-workshop
+icrawl.discord-vscode
