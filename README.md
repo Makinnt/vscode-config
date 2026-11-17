@@ -9,6 +9,7 @@ Mis ajustes y extensiones de VS Code, para dejar cualquier PC igual en 1 minuto.
 | `extensions.txt` | 12 extensiones (C/C++, CMake, GitHub Actions, PDF…) |
 | `ignored.txt` | Las que **no** quiero en las PCs de la uni (Python, Rust, LaTeX, Discord) |
 | `install.ps1` / `install.sh` | Instaladores |
+| `uninstall.ps1` | Deshace todo en un PC compartido (restaura tus respaldos) |
 
 ## Opción A — en la PC de la uni (sin cuenta, sin git)
 
@@ -27,6 +28,14 @@ git clone https://github.com/Makinnt/vscode-config.git
 cd vscode-config
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
+
+## Deshacer en un PC de la uni
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\uninstall.ps1
+```
+
+Devuelve los `settings.json` / `keybindings.json` que hubiera antes (desde los `.backup-*`) o los borra si no había nada, y desinstala las 12 extensiones de `extensions.txt`.
 
 ## Opción C — Settings Sync (automático)
 
